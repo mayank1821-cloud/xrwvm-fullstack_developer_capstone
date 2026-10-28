@@ -1,5 +1,9 @@
 # Dealerships and Reviews - Full Stack Capstone Project
 
+## Project Details
+- **Project Name**: Dealerships and Reviews - Best Cars Application
+- **Repository Name**: xrwvm-fullstack_developer_capstone
+
 ## Project Overview
 **Best Cars Dealerships and Reviews Application** is a full-stack, cloud-native web application developed as part of the IBM Full Stack Software Developer Capstone Project. The platform enables users to browse nationwide car dealerships, filter dealerships by state, view detailed dealer profiles, read customer reviews with integrated AI sentiment analysis, and submit their own reviews.
 
