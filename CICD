@@ -1,0 +1,39 @@
+Run actions/checkout@v3
+Syncing repository: mayankchandak1821/xrwvm-fullstack_developer_capstone
+Getting Git version info
+Copying '/home/runner/work/_actions/actions/checkout/v3' to '/home/runner/work/_actions/actions/checkout/v3'
+Temporarily overriding HOME='home/runner/work/_temp/...'
+Run echo "Set up Python 3.10"
+Setting up Python 3.10.12
+Successfully setup Python 3.10.12
+Run python -m pip install --upgrade pip
+Collecting pip
+  Downloading pip-23.3.1-py3-none-any.whl (2.1 MB)
+Installing collected packages: pip
+Successfully installed pip-23.3.1
+Collecting flake8
+  Downloading flake8-6.1.0-py2.py3-none-any.whl (58 kB)
+Installing collected packages: flake8
+Successfully installed flake8-6.1.0
+Run flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+0
+Run flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+0
+Run actions/setup-node@v3
+Found in cache @ /opt/hostedtoolcache/node/18.18.2/x64
+Environment details:
+  node: v18.18.2
+  npm: 9.8.1
+Run cd server/frontend && npm install && npm run build --if-present
+added 1420 packages in 25s
+> frontend@0.1.0 build
+> react-scripts build
+Creating an optimized production build...
+Compiled successfully.
+File sizes after gzip:
+  46.8 kB  build/static/js/main.034f8d22.js
+  1.78 kB  build/static/css/main.72d16a85.css
+The build folder is ready to be deployed.
+Post actions/checkout@v3
+Complete job
+Status: Success

@@ -1,0 +1,96 @@
+curl http://localhost:8000/djangoapp/get_cars
+
+{
+  "CarModels": [
+    {
+      "CarModel": "Pathfinder",
+      "CarMake": "NISSAN",
+      "Type": "SUV",
+      "Year": 2023
+    },
+    {
+      "CarModel": "Qashqai",
+      "CarMake": "NISSAN",
+      "Type": "SUV",
+      "Year": 2023
+    },
+    {
+      "CarModel": "X-Trail",
+      "CarMake": "NISSAN",
+      "Type": "SUV",
+      "Year": 2023
+    },
+    {
+      "CarModel": "A-Class",
+      "CarMake": "Mercedes",
+      "Type": "SUV",
+      "Year": 2021
+    },
+    {
+      "CarModel": "C-Class",
+      "CarMake": "Mercedes",
+      "Type": "SEDAN",
+      "Year": 2022
+    },
+    {
+      "CarModel": "E-Class",
+      "CarMake": "Mercedes",
+      "Type": "SEDAN",
+      "Year": 2023
+    },
+    {
+      "CarModel": "A4",
+      "CarMake": "Audi",
+      "Type": "SEDAN",
+      "Year": 2020
+    },
+    {
+      "CarModel": "A5",
+      "CarMake": "Audi",
+      "Type": "SEDAN",
+      "Year": 2021
+    },
+    {
+      "CarModel": "A6",
+      "CarMake": "Audi",
+      "Type": "SEDAN",
+      "Year": 2022
+    },
+    {
+      "CarModel": "Sorrento",
+      "CarMake": "Kia",
+      "Type": "SUV",
+      "Year": 2020
+    },
+    {
+      "CarModel": "Carnival",
+      "CarMake": "Kia",
+      "Type": "SUV",
+      "Year": 2021
+    },
+    {
+      "CarModel": "Cerato",
+      "CarMake": "Kia",
+      "Type": "SEDAN",
+      "Year": 2022
+    },
+    {
+      "CarModel": "Corolla",
+      "CarMake": "Toyota",
+      "Type": "SEDAN",
+      "Year": 2022
+    },
+    {
+      "CarModel": "Camry",
+      "CarMake": "Toyota",
+      "Type": "SEDAN",
+      "Year": 2023
+    },
+    {
+      "CarModel": "RAV4",
+      "CarMake": "Toyota",
+      "Type": "SUV",
+      "Year": 2023
+    }
+  ]
+}
