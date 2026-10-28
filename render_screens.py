@@ -694,12 +694,12 @@ def render_json_browser(url, title, data_lines, out_prefix):
     print(f"Generated {out_prefix}.png and {out_prefix}.jpeg")
 
 def render_cicd_github():
-    img, draw, fonts, top_y = create_browser_base("https://github.com/mayankchandak1821/xrwvm-fullstack_developer_capstone/actions", "CI/CD Pipeline · mayankchandak1821")
+    img, draw, fonts, top_y = create_browser_base("https://github.com/mayank1821-cloud/xrwvm-fullstack_developer_capstone/actions", "CI/CD Pipeline · mayank1821-cloud")
     
     # GitHub Nav
     draw.rectangle([0, top_y, 1280, top_y + 50], fill='#24292f')
     draw.text((40, top_y + 15), "🐙 GitHub", fill='#ffffff', font=fonts['ui_bold'])
-    draw.text((130, top_y + 16), "mayankchandak1821 / xrwvm-fullstack_developer_capstone", fill='#c9d1d9', font=fonts['ui'])
+    draw.text((130, top_y + 16), "mayank1821-cloud / xrwvm-fullstack_developer_capstone", fill='#c9d1d9', font=fonts['ui'])
 
     # Actions Header
     draw.text((40, top_y + 75), "CI/CD Pipeline #4", fill='#1a202c', font=fonts['h1'])
